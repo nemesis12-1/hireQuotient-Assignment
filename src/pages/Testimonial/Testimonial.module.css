@@ -1,0 +1,94 @@
+.testimonialSection {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.testimonialMain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonialMain .message {
+    width: fit-content;
+    color: #8247FF;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: 1px solid #E6DAFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.testimonialMain h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #1c1c1c;
+    line-height: 1em;
+}
+
+.testimonialMain span {
+    color: #FE8162;
+}
+
+.testimonialMain p {
+    font-size: 20px;
+    width: 600px;
+    color: #767575;
+}
+
+.testimonialContainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+
+
+.testimonialCard{
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6DAFF;
+    width: 350px;
+    padding: 50px 40px 40px;
+}
+
+.testimonialCard p{
+    width: 300px;
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonialCardProfile{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonialCardProfile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonialCardProfile h1{
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+
+.testimonialCardProfile p{
+    font-size: 16px;
+    color: #767575;
+}

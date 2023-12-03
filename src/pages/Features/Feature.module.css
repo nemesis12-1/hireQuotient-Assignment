@@ -1,0 +1,186 @@
+.featurMain {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    gap: 1rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message {
+    color: #8247FF;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: 1px solid #E6DAFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.featureMain h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #1c1c1c;
+    line-height: 1em;
+}
+
+.featureMain span {
+    color: #FE8162;
+}
+
+.featureMain p {
+    font-size: 20px;
+    width: 600px;
+    color: #767575;
+}
+
+.featureContainer {
+    /* background-color: red; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 40px;
+    margin-bottom: 4rem;
+}
+
+.card {
+    width: 50%;
+    background-color: #EDEDFA;
+    border-radius: 20px;
+    padding: 78px 30px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardIcon {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cardTextLeft h3 {
+    font-size: 42px;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-weight: 500;
+    line-height: 1.3em;
+    width: 90%;
+
+}
+
+.card2 {
+    width: 50%;
+    border: 1px solid #E6DAFF;
+    border-radius: 20px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.card2Image {
+    width: 100%;
+    height: 100%;
+}
+
+.card2Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card2Text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card2Text h1 {
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-weight: 600;
+    /* line-height: 1.3em; */
+}
+
+.card2Text p {
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.featureContainerCards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 40px; */
+    margin-bottom: 8rem;
+}
+
+.singleCard {
+    width: 31%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #E6DAFF;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.2) ;
+}
+
+.singleCardImage{
+    width: 100%;
+    height: 100%;
+}
+
+.singleCardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.singleCardText{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.singleCardText h3{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 1.3em; */
+}
+
+.singleCardText p{
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-weight: 500;
+    color: #767575;
+}
