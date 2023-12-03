@@ -1,5 +1,10 @@
 # React + Vite
 
+
+Assignment 1
+Manage Wise Landing Page Clone
+Live demo : https://nemesis12-1.github.io/hireQuotient-Assignment/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
